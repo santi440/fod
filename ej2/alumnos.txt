@@ -1,0 +1,18 @@
+111 5 3 Martinez
+Pedro
+222 7 2 Garcia
+Luis
+333 6 4 Fernandez
+Ana
+444 8 1 Lopez
+Jorge
+555 4 5 Diaz
+Laura
+666 6 3 Perez
+Miguel
+777 7 4 Rodriguez
+Elena
+888 5 2 Sanchez
+Mario
+999 6 4 Ramirez
+Carolina
