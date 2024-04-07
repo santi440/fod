@@ -1,0 +1,60 @@
+Pechuga de Pollo
+1001 150 50 5.99 Pechugas de pollo sin hueso y sin piel, congeladas para mantener la frescura y la calidad.
+Filete de Salmón
+1002 80 20 12.50 Filetes de salmón del Atlántico congelados individualmente, ricos en ácidos grasos omega-3 para una alimentación saludable.
+Verduras Mixtas
+1003 200 100 3.49 Mezcla de vegetales congelados que incluyen zanahorias, guisantes, brócoli y coliflor, perfectos para preparar platos saludables y coloridos.
+Langostinos Pelados
+1004 120 30 19.99 Langostinos pelados y limpios, congelados individualmente para preservar su frescura y sabor delicioso.
+Pizza de Queso
+1005 50 10 8.99 Pizza congelada con una generosa capa de queso derretido sobre una masa crujiente, lista para hornear y disfrutar en minutos.
+Nuggets de Pollo
+1006 180 60 4.75 Nuggets de pollo empanizados, perfectos como aperitivo o plato principal, listos para hornear o freír.
+Camarones
+1007 90 25 15.25 Camarones grandes congelados, ideales para preparar platos de mariscos frescos en casa.
+Espinacas Picadas
+1008 120 40 2.99 Espinacas frescas picadas y congeladas, listas para agregar a tus platos de pasta, ensaladas o batidos.
+Hamburguesas de Pavo
+1009 70 15 6.49 Hamburguesas de pavo magras congeladas, una opción saludable y sabrosa para tus comidas a la parrilla.
+Ensalada de Frutas
+1010 100 30 7.99 Mezcla de frutas frescas congeladas, perfectas para batidos, postres o como snack saludable.
+Pan de Ajo
+1011 60 20 3.99 Pan de ajo congelado, cubierto con mantequilla de ajo y perejil, listo para hornear y servir junto a tus platos favoritos.
+Brochetas de Verduras
+1012 110 40 9.25 Brochetas de verduras congeladas, una opción fácil y deliciosa para preparar parrilladas vegetarianas.
+Calamares
+1013 85 25 11.99 Anillos de calamar congelados, perfectos para freír o para agregar a platos de pasta y arroz.
+Batatas Cortadas
+1014 130 50 4.50 Batatas cortadas en trozos y congeladas, listas para hornear, asar o freír como acompañamiento.
+Peras en Almíbar
+1015 95 30 6.75 Peras frescas en almíbar, congeladas para preservar su sabor y textura natural.
+Albóndigas de Carne
+1016 75 20 5.99 Albóndigas de carne de res y cerdo, sazonadas y listas para cocinar en salsas o al horno.
+Tarta de Manzana
+1017 40 10 8.49 Tarta de manzana casera congelada, con una masa hojaldrada y un relleno de manzanas frescas y especias.
+Sopa de Tomate
+1018 110 40 3.25 Sopa de tomate casera congelada, preparada con tomates maduros, cebollas, y hierbas aromáticas.
+Bagels de Queso y Jalapeño
+1019 55 15 2.99 Bagels de queso y jalapeño congelados, perfectos para desayunar o para preparar sándwiches originales.
+Pimientos Rellenos
+1020 65 20 7.99 Pimientos rellenos con carne molida, arroz y especias, congelados y listos para hornear o calentar.
+Maíz Dulce
+1021 150 50 1.99 Maíz dulce fresco congelado, ideal como acompañamiento o ingrediente para sopas y guisos.
+Bacalao
+1022 90 25 14.50 Filetes de bacalao congelados, una opción versátil para preparar platos de pescado al horno, a la parrilla o fritos.
+Empanadas de Carne
+1023 70 15 6.25 Empanadas argentinas rellenas de carne sazonada, listas para hornear y disfrutar como aperitivo o plato principal.
+Guarnición de Arroz
+1024 120 40 3.75 Arroz blanco cocido y congelado, una guarnición práctica para acompañar tus platos de carne, pollo o pescado.
+Tartaleta de Limón
+1025 45 10 4.99 Tartaletas individuales de limón congeladas, con una base de masa quebrada y un relleno de crema de limón.
+Pan de Canela
+1026 80 25 4.25 Pan de canela congelado, perfecto para tostar y disfrutar con una taza de café o té.
+Albóndigas de Pavo
+1027 85 20 5.49 Albóndigas de pavo magras congeladas, ideales para preparar platos saludables y sabrosos.
+Duraznos en Almíbar
+1028 100 30 7.25 Duraznos frescos en almíbar, congelados para preservar su dulzura y jugosidad natural.
+Croissants de Chocolate
+1029 60 15 6.99 Croissants rellenos de chocolate congelados, listos para hornear y disfrutar como un delicioso desayuno o merienda.
+Espárragos
+1030 110 30 9.99 Espárragos frescos congelados, perfectos para cocinar al vapor
