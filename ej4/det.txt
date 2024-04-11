@@ -1,6 +1,6 @@
-123 1500 1800 Buenos Aires
-456 1200 1700 Buenos Aires
-789 1800 1900 Cordoba
-1011 1000 1600 Cordoba
-1213 1900 2000 Mendoza
-1415 1800 1900 Tucuman
+123 150 180 Buenos Aires
+456 120 170 Buenos Aires
+789 100 100 Cordoba
+1011 100 1600 Cordoba
+1213 190 200 Mendoza
+1415 100 190 Tucuman
