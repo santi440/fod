@@ -1,0 +1,167 @@
+1001 Joaquin
+Aguirre
+2024 1 5 12000.00
+
+1001 Joaquin
+Aguirre
+2024 1 15 9500.75
+
+1001 Joaquin
+Aguirre
+2024 2 8 13500.50
+
+1001 Joaquin
+Aguirre
+2024 2 17 11000.25
+
+1001 Joaquin
+Aguirre
+2024 3 6 12500.00
+
+1001 Joaquin
+Aguirre
+2024 3 19 10500.50
+
+1001 Joaquin
+Aguirre
+2024 4 9 14500.25
+
+1002 Sofia
+Martinez
+2024 1 2 7500.00
+
+1002 Sofia
+Martinez
+2024 1 18 8800.75
+
+1002 Sofia
+Martinez
+2024 2 7 9200.50
+
+1002 Sofia
+Martinez
+2024 2 20 10500.25
+
+1002 Sofia
+Martinez
+2024 3 4 11500.00
+
+1002 Sofia
+Martinez
+2024 3 22 12500.50
+
+1002 Sofia
+Martinez
+2024 4 11 13500.25
+
+1003 Luis
+Gomez
+2024 1 8 6200.00
+
+1003 Luis
+Gomez
+2024 1 25 7800.75
+
+1003 Luis
+Gomez
+2024 2 11 8500.50
+
+1003 Luis
+Gomez
+2024 2 24 9200.25
+
+1003 Luis
+Gomez
+2024 3 9 10500.00
+
+1003 Luis
+Gomez
+2024 3 18 11000.50
+
+1003 Luis
+Gomez
+2024 4 1 11500.25
+
+1004 Maria
+Rodriguez
+2024 1 4 5500.00
+
+1004 Maria
+Rodriguez
+2024 1 20 6800.75
+
+1004 Maria
+Rodriguez
+2024 2 5 7200.50
+
+1004 Maria
+Rodriguez
+2024 2 19 8200.25
+
+1004 Maria
+Rodriguez
+2024 3 2 9500.00
+
+1004 Maria
+Rodriguez
+2024 3 15 10200.50
+
+1004 Maria
+Rodriguez
+2024 4 3 11300.25
+
+1005 Diego
+Fernandez
+2024 1 6 4300.00
+
+1005 Diego
+Fernandez
+2024 1 22 5600.75
+
+1005 Diego
+Fernandez
+2024 2 9 6300.50
+
+1005 Diego
+Fernandez
+2024 2 26 7100.25
+
+1005 Diego
+Fernandez
+2024 3 5 8400.00
+
+1005 Diego
+Fernandez
+2024 3 16 9200.50
+
+1005 Diego
+Fernandez
+2024 4 5 10500.25
+
+1006 Ana
+Lopez
+2024 1 10 3900.00
+
+1006 Ana
+Lopez
+2024 1 28 4900.75
+
+1006 Ana
+Lopez
+2024 2 13 5500.50
+
+1006 Ana
+Lopez
+2024 2 27 6200.25
+
+1006 Ana
+Lopez
+2024 3 8 7100.00
+
+1006 Ana
+Lopez
+2024 3 20 7800.50
+
+1006 Ana
+Lopez
+2024 4 7 8500.25

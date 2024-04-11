@@ -1,0 +1,10 @@
+Usuario: 1021 cantidad de mails: 1
+Usuario: 1078 cantidad de mails: 2
+Usuario: 2156 cantidad de mails: 1
+Usuario: 3048 cantidad de mails: 1
+Usuario: 4123 cantidad de mails: 1
+Usuario: 5209 cantidad de mails: 1
+Usuario: 6374 cantidad de mails: 1
+Usuario: 7485 cantidad de mails: 1
+Usuario: 8590 cantidad de mails: 1
+Usuario: 9632 cantidad de mails: 1

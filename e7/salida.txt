@@ -1,0 +1,9 @@
+Nombre municio  Ciudad A  nombre cepa  Alfa 80 20 870 63
+Nombre municio  Pueblo B  nombre cepa  Alfa 210 35 765 56
+Nombre municio  Pueblo B  nombre cepa  Beta 65 15 187 11
+Nombre municio  Villa C  nombre cepa  Alfa 55 10 310 23
+Nombre municio  Ciudad D  nombre cepa  Alfa 85 12 565 39
+Nombre municio  Pueblo E  nombre cepa  Alfa 310 45 710 46
+Nombre municio  Pueblo E  nombre cepa  Beta 95 20 220 12
+Nombre municio  Ciudad G  nombre cepa  Alfa 155 22 905 59
+Nombre municio  Villa I  nombre cepa  Alfa 150

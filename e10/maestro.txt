@@ -1,0 +1,81 @@
+Contabilidad
+Auditoría
+1001 5 3
+Contabilidad
+Auditoría
+1002 8 6
+Contabilidad
+Auditoria
+1001 5 3
+Contabilidad
+Auditoria
+1002 8 6
+Contabilidad
+Finanzas
+1003 3 2
+Contabilidad
+Finanzas
+1004 10 8
+Contabilidad
+Impuestos
+1005 7 5
+Contabilidad
+Impuestos
+1006 12 9
+Recursos Humanos
+Contratacion
+2001 6 4
+Recursos Humanos
+Contratacion
+2002 9 7
+Recursos Humanos
+Nomina
+2003 2 1
+Recursos Humanos
+Nomina
+2004 15 11
+Ventas
+Internacional
+3001 13 10
+Ventas
+Internacional
+3002 17 13
+Ventas
+Nacional
+3003 14 12
+Ventas
+Nacional
+3004 20 15
+Marketing
+Publicidad
+4001 18 14
+Marketing
+Publicidad
+4002 1 1
+Marketing
+Investigacion de Mercado
+4003 5 3
+Marketing
+Investigacion de Mercado
+4004 8 6
+Tecnologia
+Desarrollo de Software
+5001 3 2
+Tecnologia
+Desarrollo de Software
+5002 10 8
+Tecnologia
+Soporte Tecnico
+5003 7 5
+Tecnologia
+Soporte Tecnico
+5004 12 9
+Logistica
+Almacenamiento
+6001 6 4
+Logistica
+Almacenamiento
+6002 9 7
+Logistica
+Distribucion
+6003 2 1

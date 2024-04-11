@@ -1,0 +1,83 @@
+101 Ciudad A 
+1 Alfa
+150 25 300 20
+
+101 Ciudad A 
+2 Beta
+50 10 100 5
+
+102 Pueblo B 
+1 Alfa
+75 15 150 10
+
+102 Pueblo B 
+2 Beta
+30 5 60 2
+
+103 Villa C 
+1 Alfa
+100 20 200 15
+
+103 Villa C 
+2 Beta
+20 3 40 1
+
+104 Ciudad D 
+1 Alfa
+200 30 400 25
+
+104 Ciudad D 
+2 Beta
+60 12 120 7
+
+105 Pueblo E 
+1 Alfa
+50 8 100 6
+
+105 Pueblo E 
+2 Beta
+15 2 30 0
+
+106 Villa F 
+1 Alfa
+80 10 160 12
+
+106 Villa F 
+2 Beta
+25 5 50 3
+
+107 Ciudad G 
+1 Alfa
+300 40 600 35
+
+107 Ciudad G 
+2 Beta
+90 18 180 10
+
+108 Pueblo H 
+1 Alfa
+40 5 80 4
+
+108 Pueblo H 
+2 Beta
+10 1 20 1
+
+109 Villa I 
+1 Alfa
+150 20 300 20
+
+109 Villa I 
+2 Beta
+35 7 70 4
+
+110 Lobos
+3 Omega
+100 45 23 1
+
+110 Lobos
+2 Beta
+10 1 20 1
+
+111 Cañuelas
+2 Beta
+11 1 21 1
