@@ -1,0 +1,2 @@
+El producto 1 tiene -17 existencias y minimamente deberia tener 20.Faltan  37  Boligrafo Azul
+El producto 2 tiene -3 existencias y minimamente deberia tener 15.Faltan  18  Libreta de Notas

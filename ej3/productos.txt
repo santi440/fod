@@ -1,0 +1,50 @@
+001  10.99  100  20 Boligrafo Azul
+002  15.50  75   15 Libreta de Notas
+003  5.25   50   10 Carpeta de Archivos
+004  3.99   200  30 Lapiz HB
+005  20.00  30   5  Calculadora Cientifica
+006  8.75   90   25 Cuaderno de Dibujo
+007  2.49   150  20 Goma de Borrar
+008  12.99  60   10 Estuche de Boligrafos
+009  6.50   100  15 Marcadores de Colores
+010  4.25   80   20 Pegamento en Barra
+011  18.99  40   10 Regla de Plastico
+012  14.75  70   15 Tijeras Escolares
+013  9.99   120  30 Papel de Carta
+014  25.00  25   5  Mochila Escolar
+015  7.25   110  20 Borrador de Pizarra
+016  3.50   180  25 Sacapuntas
+017  11.49  65   10 Carpetas de Proyectos
+018  8.99   85   15 Plumas de Gel
+019  19.50  35   5  Calculadora Basica
+020  10.25  95   20 Cuaderno de Matematicas
+021  2.99   140  30 Cinta Adhesiva
+022  5.75   55   10 Lapices de Colores
+023  13.99  50   5  Portafolios de Presentacion
+024  17.50  45   10 Compas de Dibujo
+025  6.25   105  15 Bloc de Notas
+026  4.99   95   20 Marcadores de Pizarra
+027  21.50  20   5  Maletin de Documentos
+028  9.75   75   15 Set de Geometria
+029  3.25   160  30 Papel de Envolver
+030  12.49  55   10 Boligrafo Negro
+031  7.99   85   20 Cuaderno de Ingles
+032  22.99  30   5  Archivador de Documentos
+033  5.50   110  25 Pizarra Blanca
+034  10.75  70   15 Carpeta de Anillas
+035  4.49   125  30 Pegatinas Decorativas
+036  15.00  40   10 Estuche de Marcadores
+037  8.25   80   15 Corrector Liquido
+038  2.75   170  25 Clips Metalicos
+039  11.99  60   10 Subrayadores Fluorescentes
+040  18.50  35   5  Mochila con Ruedas
+041  7.75   90   20 Bloc de Dibujo
+042  3.99   135  30 Papel de Colores
+043  9.50   70   10 Tijeras de Oficina
+044  14.25  50   5  Tablero de Corcho
+045  6.99   105  20 Boligrafos de Gel
+046  23.99  25   5  Carpeta de Proyectos
+047  10.50  80   15 Portaminas
+048  5.25   95   25 Cajas de Almacenamiento
+049  12.75  65   10 Archivadores de Carton
+050  19.99  40   5  Mochila Deportiva

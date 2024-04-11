@@ -1,0 +1,9 @@
+Alumno:  codigo: 111 Nombre: Pedro  Martinez Materias solo cursadas: 5 Materias aprobadas con final: 4
+Alumno:  codigo: 222 Nombre: Luis  Garcia Materias solo cursadas: 7 Materias aprobadas con final: 2
+Alumno:  codigo: 333 Nombre: Ana  Fernandez Materias solo cursadas: 6 Materias aprobadas con final: 4
+Alumno:  codigo: 444 Nombre: Jorge  Lopez Materias solo cursadas: 8 Materias aprobadas con final: 1
+Alumno:  codigo: 555 Nombre: Laura  Diaz Materias solo cursadas: 4 Materias aprobadas con final: 5
+Alumno:  codigo: 666 Nombre: Miguel  Perez Materias solo cursadas: 6 Materias aprobadas con final: 3
+Alumno:  codigo: 777 Nombre: Elena  Rodriguez Materias solo cursadas: 7 Materias aprobadas con final: 4
+Alumno:  codigo: 888 Nombre: Mario  Sanchez Materias solo cursadas: 5 Materias aprobadas con final: 2
+Alumno:  codigo: 999 Nombre: Carolina  Ramirez Materias solo cursadas: 6 Materias aprobadas con final: 4
