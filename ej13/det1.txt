@@ -1,0 +1,32 @@
+Ciudad de Mexico
+15 05 2024
+09 00
+5
+Ciudad de Mexico
+15 05 2024
+09 00
+100
+Dubai
+15 11 2024
+13 15
+177
+Nueva York
+08 08 2024
+16 20
+50
+Sao Paulo
+20 12 2024
+08 30
+158
+Sydney
+10 09 2024
+07 55
+85
+Sydney
+10 09 2024
+07 55
+88
+Toronto
+25 01 2025
+12 00
+22
