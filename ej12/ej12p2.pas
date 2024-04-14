@@ -73,11 +73,12 @@ var
 	regm: guardada;
 	regd: diaria;
 	cant,act: integer;
-	//output: text;   // sin estar comentado por algun motivo deja en Usua
+	output: text;   // sin estar comentado por algun motivo deja en Usua
 begin
 	reset(maestro);
 	assign(output,'salida.txt');
 	rewrite(output);
+	reset(detalle);
 	leer(maestro,regm);
 	leerDetalle(detalle,regd);
 	while (regm.nro_usuario <> valorAlto)do
@@ -96,11 +97,14 @@ begin
 		writeln(output,'Usuario: ', regm.nro_usuario, ' cantidad de mails: ', cant);
 		leer(maestro,regm);
 	end;
+	close(output);
+	close(detalle);
+	close(maestro);
 end;
 
 procedure imprimirPost(var maestro:log; var detalle: archivo);
 var
-	//output: text;  // sin estar comentado por algun motivo deja en Usua
+	output: text;  // sin estar comentado por algun motivo deja en Usua
 	regm: guardada;
 	regd:diaria;
 	cant,act: integer;
@@ -123,6 +127,9 @@ begin
 		writeln(output,'Usuario: ', regm.nro_usuario, ' cantidad de mails: ', cant);
 		leer(maestro,regm);
 	end;
+	close(output);
+	close(maestro);
+	close(detalle);
 end;
 
 var

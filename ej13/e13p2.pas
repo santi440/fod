@@ -87,67 +87,72 @@ begin
 	horaIgual:= ((h1.hora = h2.hora)and (h1.min = h2.min));
 end;
 
-procedure minimo (var reg1,reg2,min: vuelo; var det1,det2: archivo);
+procedure minimo (var vuelo1,vuelo2,vueloMasChico: vuelo; var det1,det2: archivo);
 begin
-	if(reg1.destino < reg2.destino)then //primero por destino
-	begin
-		min:= reg1;
-		leer(det1,reg1);
-	end
-	else
-		if(reg1.destino > reg2.destino)then
-		begin
-			min:= reg2;
-			leer(det2,reg2);
-		end
-	else 
-		if(reg1.destino = reg2.destino)then
-		begin
-			if((reg1.fecha.dia < reg2.fecha.dia) or (reg1.fecha.mes < reg2.fecha.mes) or (reg1.fecha.anno < reg2.fecha.anno))then //por fecha
-			begin
-				min:= reg1;
-				leer(det1,reg1);
+	// Comparamos por destino
+    if vuelo1.destino < vuelo2.destino then
+    begin
+        vueloMasChico := vuelo1;
+        leer(det1,vuelo1);
+    end
+    else if vuelo1.destino > vuelo2.destino then
+    begin
+        vueloMasChico := vuelo2;
+        leer(det2,vuelo2);
+    end
+    else begin
+        // Si los destinos son iguales, comparamos por fecha
+        if (vuelo1.fecha.anno < vuelo2.fecha.anno) or
+           ((vuelo1.fecha.anno = vuelo2.fecha.anno) and (vuelo1.fecha.mes < vuelo2.fecha.mes)) or
+           ((vuelo1.fecha.anno = vuelo2.fecha.anno) and (vuelo1.fecha.mes = vuelo2.fecha.mes) and (vuelo1.fecha.dia < vuelo2.fecha.dia)) then
+            begin
+				vueloMasChico := vuelo1;
+				leer(det1,vuelo1);
 			end
-			else 
-				if((reg1.fecha.dia > reg2.fecha.dia) or (reg1.fecha.mes > reg2.fecha.mes) or (reg1.fecha.anno > reg2.fecha.anno))then
-				begin
-						min:= reg2;
-						leer(det2,reg2);
+        else if (vuelo1.fecha.anno > vuelo2.fecha.anno) or
+                ((vuelo1.fecha.anno = vuelo2.fecha.anno) and(vuelo1.fecha.mes > vuelo2.fecha.mes)) or
+                ((vuelo1.fecha.anno = vuelo2.fecha.anno) and (vuelo1.fecha.mes = vuelo2.fecha.mes) and(vuelo1.fecha.dia > vuelo2.fecha.dia)) then
+            begin
+				vueloMasChico := vuelo2;
+				leer(det2,vuelo2);
+			end
+        else begin
+            // Si las fechas son iguales, comparamos por hora
+            if (vuelo1.hora.hora < vuelo2.hora.hora) or
+               ((vuelo1.hora.hora = vuelo2.hora.hora) and (vuelo1.hora.min < vuelo2.hora.min)) then
+                begin
+					vueloMasChico := vuelo1;
+					leer(det1,vuelo1);
 				end
-				else
-				begin
-					if((reg1.hora.hora < reg2.hora.hora) and (reg1.hora.min < reg2.hora.min))then // por hora
-					begin
-						min:= reg1;
-						leer(det1,reg1);
-					end
-					else //son iguales
-					begin
-						min:= reg2;
-						leer(det2,reg2);
-					end;
-				end;
-		end;
+            else begin
+                vueloMasChico := vuelo2;
+                leer(det2,vuelo2);
+            end;
+        end;
+    end;
 end;
 
 procedure informar (var output:text;regm:vuelo; minima: integer);
 begin	
 	if(regm.asientos < minima)then
 	begin
-		writeln(output,'Destino: ', regm.destino,
+		writeln(output,'destino: ', regm.destino,
 					   ' fecha: ', regm.fecha.dia,'/',regm.fecha.mes,'/',regm.fecha.anno,
 					   ' hora: ',regm.hora.hora,':',regm.hora.min,
 					   ' asientos disponibles: ',regm.asientos);
 	end;
 end;
 
-procedure actualizar (var maestro,det1,det2: archivo; minima:integer; var output:text);
+procedure actualizar (var maestro,det1,det2: archivo; minima:integer);
 var
 	regm, reg1,reg2,min: vuelo;
 	dest:string;
 	fecha: tfecha;
 	hora:thora; 
+	output: text;
 begin
+	assign(output,'informe.txt');
+	rewrite(output);
 	reset(maestro);
 	reset(det1);
 	reset(det2);
@@ -155,44 +160,39 @@ begin
 	leer(det1,reg1);
 	leer(det2,reg2);
 	minimo(reg1,reg2,min,det1,det2);
-	while (regm.destino <> valorAlto)do
+	while (regm.destino <> valorAlto)do  //hasta final del maestro
 	begin
-		dest:= regm.destino;
-		writeln('maestro: ', regm.destino);
-		writeln('min: ', min.destino);
-		while (min.destino <> dest)do
+		while (min.destino <> regm.destino)do
 			read(maestro,regm);
+		
+		dest:= regm.destino;
 			
-		while(dest = min.destino)do
+		while(dest = min.destino)do  //vuelos al mismo destino
 		begin
+			
 			fecha:= regm.fecha;
-			while (not fechaIgual(fecha,min.fecha))do
-				read(maestro,regm);
 				
-			while((min.destino = dest) and (fechaIgual(fecha,min.fecha)))do
+			while((min.destino = dest) and (fechaIgual(fecha,min.fecha)))do //vuelos al mismo lugar y mismo dia
 			begin
+					
 				hora:= regm.hora;
-				while (not horaIgual(min.hora, hora))do
-					read(maestro,regm);
 
-				while((min.destino = dest) and (fechaIgual(fecha,min.fecha)) and (horaIgual(min.hora, hora)))do
+				while((min.destino = dest) and (fechaIgual(fecha,min.fecha)) and (horaIgual(min.hora, hora)))do //mismo vuelo
 				begin
 					regm.asientos:= regm.asientos - min.asientos;
 					minimo(reg1,reg2,min,det1,det2);
-					writeln('min: ', min.destino);
 				end;
-				writeln('escribo ', regm.asientos);
 				informar(output,regm,minima);
 				seek(maestro,filepos(maestro)-1);
 				write(maestro,regm);
 				leer(maestro,regm);
-				writeln('maestro: ', regm.destino);
 			end;
 		end;
 	end;
 	close(maestro);
 	close(det1);
 	close(det2);
+	close(output);
 end;
 
 procedure imprimir (var maestro: archivo);
@@ -215,13 +215,10 @@ end;
 var
 	maestro,det1,det2: archivo;
 	minima: integer; 
-	output: text;
 begin
 	inicializarDeTexto(maestro,det1,det2);
 	write('Ingresa el minimo de votos para el informe: ');
 	readln(minima);
-	assign(output,'informe.txt');
-	rewrite(output);
-	actualizar(maestro,det1,det2,minima,output);
+	actualizar(maestro,det1,det2,minima);
 	imprimir(maestro);
 end.

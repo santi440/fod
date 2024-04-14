@@ -1,0 +1,4 @@
+destino: Bangkok fecha: 3/2/2025 hora: 15:40 asientos disponibles: 3
+destino: Dubai fecha: 15/11/2024 hora: 13:15 asientos disponibles: 3
+destino: Paris fecha: 20/6/2024 hora: 14:45 asientos disponibles: 8
+destino: Sao Paulo fecha: 20/12/2024 hora: 8:30 asientos disponibles: 2
