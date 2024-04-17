@@ -1,0 +1,113 @@
+1001 Honda CB 500F
+Una moto deportiva de calle versátil y potente, ideal para aquellos que buscan emociones fuertes en cada viaje.
+CB 500F
+Honda
+20
+
+1002 Yamaha YZF-R6
+Conocida por su rendimiento en pista y su agresivo diseño, la YZF-R6 es una moto deportiva que ofrece una experiencia de conducción emocionante.
+YZF-R6
+Yamaha
+15
+
+1003 Kawasaki Ninja 650
+La Ninja 650 combina un estilo deportivo con comodidad para el día a día, siendo una opción versátil para los motociclistas que buscan rendimiento y practicidad.
+Ninja 650
+Kawasaki
+25
+
+1004 Suzuki GSX-R750
+Esta moto deportiva de altas prestaciones ofrece un equilibrio perfecto entre potencia, manejo y tecnología, brindando una experiencia emocionante en cada viaje.
+GSX-R750
+Suzuki
+10
+
+1005 BMW S1000RR
+Reconocida por su rendimiento excepcional y tecnología de vanguardia, la S1000RR es una moto deportiva diseñada para dominar tanto en la pista como en la carretera.
+S1000RR
+BMW
+18
+
+1006 Ducati Panigale V4
+La Panigale V4 es una obra maestra de ingeniería italiana, ofreciendo un rendimiento sin igual y un diseño impresionante que la convierten en una moto deseada por muchos.
+Panigale V4
+Ducati
+12
+
+1007 Harley-Davidson Iron 883
+Con su estilo clásico y su potente motor V-Twin, la Iron 883 es una moto cruiser que captura la esencia del espíritu libre y la aventura en la carretera.
+Iron 883
+Harley-Davidson
+30
+
+1008 Triumph Street Triple RS
+La Street Triple RS ofrece un equilibrio perfecto entre rendimiento, manejo y estilo, siendo una moto naked que destaca tanto en la ciudad como en carreteras sinuosas.
+Street Triple RS
+Triumph
+22
+
+1009 KTM 1290 Super Duke R
+Conocida como "The Beast", la Super Duke R es una moto naked de altas prestaciones diseñada para ofrecer emociones fuertes y un rendimiento sin límites.
+1290 Super Duke R
+KTM
+8
+
+1010 Honda Gold Wing
+La Gold Wing es una moto touring de lujo que redefine el concepto de comodidad y tecnología en largos viajes, ofreciendo una experiencia de conducción incomparable.
+Gold Wing
+Honda
+14
+
+1011 Yamaha MT-07
+Con un diseño agresivo y un motor de alto rendimiento, la MT-07 es una moto naked que ofrece diversión y agilidad en cada viaje, tanto en ciudad como en carretera.
+MT-07
+Yamaha
+28
+
+1012 Kawasaki Z900
+La Z900 es una moto naked que combina estilo, rendimiento y manejabilidad, siendo una opción popular entre los motociclistas que buscan emociones fuertes en cada salida.
+Z900
+Kawasaki
+20
+
+1013 Suzuki SV650
+Con su diseño deportivo y su motor de alto rendimiento, la SV650 es una moto naked versátil y divertida de conducir, perfecta para pilotos de todos los niveles.
+SV650
+Suzuki
+17
+
+1014 BMW R1250GS
+La R1250GS es una moto adventure que combina tecnología de vanguardia con un rendimiento excepcional, ofreciendo versatilidad y capacidad para enfrentar cualquier tipo de terreno.
+R1250GS
+BMW
+16
+
+1015 Ducati Monster 821
+La Monster 821 es una moto naked que combina estilo italiano, rendimiento deportivo y tecnología avanzada, ofreciendo una experiencia de conducción emocionante en cada viaje.
+Monster 821
+Ducati
+11
+
+1016 Harley-Davidson Road Glide
+La Road Glide es una moto touring diseñada para conquistar largas distancias con comodidad y estilo, ofreciendo un rendimiento excepcional en cualquier tipo de carretera.
+Road Glide
+Harley-Davidson
+24
+
+1017 Triumph Tiger 800
+Conocida por su versatilidad y capacidad off-road, la Tiger 800 es una moto adventure que ofrece un equilibrio perfecto entre rendimiento en carretera y capacidad para la aventura.
+Tiger 800
+Triumph
+19
+
+1018 KTM 690 Enduro R
+La 690 Enduro R es una moto adventure ligera y ágil, diseñada para enfrentar terrenos difíciles con facilidad y ofrecer una experiencia de conducción emocionante en cualquier situación.
+690 Enduro R
+KTM
+13
+
+1019 Honda Africa Twin
+La Africa Twin es una moto adventure robusta y versátil, diseñada para enfrentar cualquier tipo de terreno con confianza y ofrecer comodidad en largos viajes tanto en carretera como off-road.
+Africa Twin
+Honda
+21

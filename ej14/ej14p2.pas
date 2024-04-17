@@ -38,10 +38,10 @@ begin
 		reg.codigo_pcia:= valorAlto;
 end;
 
-procedure leerMaestro(var detalle: base_de_datos; var reg: existencia);
+procedure leerMaestro(var maestro: base_de_datos; var reg: existencia);
 begin
-	if(not eof(detalle))then
-		read(detalle,reg)
+	if(not eof(maestro))then
+		read(maestro,reg)
 	else
 		reg.codigo_pcia:= valorAlto;
 end;
@@ -66,6 +66,8 @@ begin
 		readln(fuenteM,regm.sin_luz,regm.sin_gas, regm.viviendas_chapa, regm.sin_agua, regm.sin_sanitarios);
 		write(maestro,regm);
 	end;
+	reset(maestro);
+	
 	for i:= 1 to 10 do
 	begin
 		Str(i,filename);
@@ -77,6 +79,7 @@ begin
 		begin
 			readln(fuentes[i],registroD.codigo_pcia, registroD.codigo_loc,registroD.con_luz,registroD.con_gas, registroD.viviendas_construidas, registroD.con_agua, registroD.con_sanitarios);
 			write(detalles[i], registroD);
+			
 		end;
 		reset(detalles[i]);
 		leerDetalles(detalles[i],regd[i]);
@@ -100,8 +103,6 @@ begin
 	leerDetalles(detalles[pos], regd[pos]);
 end;
 
-
-
 var
 	maestro: base_de_datos;
 	detalles: nacion;
@@ -111,12 +112,15 @@ var
 begin
 	humano_maquina(maestro,detalles,regd);
 	leerMaestro(maestro,regm);
+	
 	while (regm.codigo_pcia <> valorAlto)do
 	begin
 		minimo(detalles,regd,min);
-		
-		while((min.codigo_pcia <> regm.codigo_pcia) and (min.codigo_loc <> regm.codigo_loc))do
+
+		while (regm.codigo_pcia <> valorAlto) and ((min.codigo_pcia <> regm.codigo_pcia) or (min.codigo_loc <> regm.codigo_loc))do
+		begin
 			leerMaestro(maestro,regm);
+		end;
 		
 		regm.sin_luz:= regm.sin_luz - min.con_luz;
 		regm.sin_agua:= regm.sin_agua - min.con_agua;
@@ -124,7 +128,11 @@ begin
 		regm.sin_sanitarios:= regm.sin_sanitarios - min.con_sanitarios;
 		regm.viviendas_chapa:= regm.viviendas_chapa - min.viviendas_construidas;
 		
+		seek(maestro,filepos(maestro)-1);
+		write(maestro,regm);
+		
 	end;
+	
 	reset(maestro);
 	while(not eof(maestro))do
 	begin
@@ -132,4 +140,5 @@ begin
 		if(regm.viviendas_chapa = 0)then
 			writeln('Provincia ', regm.codigo_pcia, ' localidad ', regm.codigo_loc , ' no tiene casas de chapa');
 	end;
+	close(maestro);
 end.

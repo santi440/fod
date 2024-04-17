@@ -1,0 +1,101 @@
+101 Adrogue
+1  Almirante Brown
+201 Hospital Almirante Brown
+12/02/2020
+50
+
+101 Adrogue
+1  Almirante Brown
+201 Hospital Almirante Brown
+13/02/2020
+200
+
+101 Adrogue
+1  Almirante Brown
+201 Hospital Almirante Brown
+15/02/2020
+300
+
+101 Adrogue
+1  Almirante Brown
+201 Hospital Almirante Brown
+12/02/2020
+5000
+
+101 Adrogue
+1  Almirante Brown
+202 Centro Medico Adrogue
+12/02/2020
+30
+
+201 Avellaneda
+2  Avellaneda
+203 Hospital Fiorito
+13/02/2020
+70
+
+201 Avellaneda
+2  Avellaneda
+204 Clinica Avellaneda
+13/02/2020
+40
+
+301 La Plata
+3  La Plata
+205 Hospital San Juan de Dios
+14/02/2020
+120
+
+301 La Plata
+3  La Plata
+205 Hospital San Juan de Dios
+15/02/2020
+1200
+
+301 La Plata
+3  La Plata
+205 Hospital San Juan de Dios
+14/03/2020
+1200
+
+301 La Plata
+3  La Plata
+206 Clinica La Plata
+14/02/2020
+80
+
+301 La Plata
+6  Los Hornos
+206 UPA
+14/02/2020
+80
+
+301 La Plata
+6  Los Hornos
+206 UPA
+16/02/2020
+80
+
+401 Lomas de Zamora
+4  Lomas de Zamora
+207 Hospital Gandulfo
+15/02/2020
+90
+
+401 Lomas de Zamora
+4  Lomas de Zamora
+208 Centro Medico Lomas
+15/02/2020
+60
+
+501 Quilmes
+5  Quilmes
+209 Hospital Iriarte
+16/02/2020
+110
+
+501 Quilmes
+5  Quilmes
+210 Clinica Quilmes
+16/02/2020
+70
